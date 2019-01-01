@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:hnrfqjTech/hnrfqjTech.github.io.git"
   },
   "keywords": [
     "vuepress",
@@ -18,10 +18,7 @@
   ],
   "author": "bigang.ybg",
   "license": "MIT",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
+  "homepage": "https://github.com/hnrfqjTech/hnrfqjTech.github.io",
   "devDependencies": {
     "vuepress": "^1.0.0-alpha.30"
   }

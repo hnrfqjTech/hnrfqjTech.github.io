@@ -416,8 +416,9 @@ div.notepad-index-post-tags {
 	border-radius: 0.125rem;
 	margin-bottom: 0.3125rem; }
 .notepad-index-post-tags a:hover {
-	color: #e51843;
-	border: 0.0625rem solid #e51843; }
+	color: #0bc8d2;
+	border: 0.0625rem solid #0bc8d2;
+}
 
 table {
 	width:100%;

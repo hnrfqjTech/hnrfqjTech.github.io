@@ -5,7 +5,9 @@
   "main": "",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "wxminiapp-docs:dev": "vuepress dev wxminiapp-docs",
+    "wxminiapp-docs:build": "vuepress build wxminiapp-docs"
   },
   "repository": {
     "type": "git",

@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /cube.png
-heroText: HM UI
-tagline: 基于 Element UI 2.x 的管理后台组件库
+heroImage: /cube.jpg
+heroText: wxminiapp-boilerplate
+tagline: 基于 MPVUE 的微信小程序脚手架
 actionText: 快速上手 →
 actionLink: /guide/
 features:
@@ -11,7 +11,7 @@ features:
 - title: Vue 驱动
   details: 享受 Vue + webpack 的开发体验。
 - title: 特性支持
-  details: 样式编译器SASS、组件化、ES2015等。
+  details: 样式编译器SASS、组件化、ES2015、请求优化、插件、分包等。
 footer: MIT Licensed | Copyright © 2018-present hnrfqj.com
 ---
 
@@ -20,13 +20,13 @@ footer: MIT Licensed | Copyright © 2018-present hnrfqj.com
 
 ``` bash
 # 安装
-npm i -S hm-ui
+npm i -g @hnrfqj/rfqj-cli
 
 # 使用
-import Vue from 'vue';
-import HmUi from 'hm-ui';
-
-Vue.use(HmUi);
+rfqj clone wxminiapp
+cd wxminiapp
+npm i
+npm run dev
 ```
 
 ::: tip

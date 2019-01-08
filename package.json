@@ -7,7 +7,9 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "wxminiapp-docs:dev": "vuepress dev wxminiapp-docs",
-    "wxminiapp-docs:build": "vuepress build wxminiapp-docs"
+    "wxminiapp-docs:build": "vuepress build wxminiapp-docs",
+    "hm-helper-docs:dev": "vuepress dev hm-helper-docs",
+    "hm-helper-docs:build": "vuepress build hm-helper-docs"
   },
   "repository": {
     "type": "git",

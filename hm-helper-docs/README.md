@@ -23,8 +23,8 @@ footer: MIT Licensed | Copyright © 2018-present hnrfqj.com
 npm i -S @hnrfqj/hm-helper
 
 # 使用
+import { validatePhone, validateEmail } from '@hnrfqj/hm-helper/form';
 ```
-
 ::: tip
 请确保你的 Node.js 版本 >= 6
 :::

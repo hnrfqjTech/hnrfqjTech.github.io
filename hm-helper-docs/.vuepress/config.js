@@ -51,7 +51,6 @@ module.exports = {
             title: '指南',
             collapsable: false,
             children: [
-              '/guide/structrue',
               '/guide/util',
               '/guide/reg',
               '/guide/url',

@@ -1,4 +1,4 @@
-# 验证规则
+# 表单验证(vue)
  vue form validate handle
 
 ## 使用

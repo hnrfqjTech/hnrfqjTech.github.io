@@ -6,12 +6,14 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "wxminiapp-docs:dev": "vuepress dev wxminiapp-docs",
-    "wxminiapp-docs:build": "vuepress build wxminiapp-docs",
     "hm-helper-docs:dev": "vuepress dev hm-helper-docs",
     "hm-helper-docs:build": "vuepress build hm-helper-docs",
     "rfqj-cli-docs:dev": "vuepress dev rfqj-cli-docs",
-    "rfqj-cli-docs:build": "vuepress build rfqj-cli-docs"
+    "rfqj-cli-docs:build": "vuepress build rfqj-cli-docs",
+    "wxminiapp-docs:dev": "vuepress dev wxminiapp-docs",
+    "wxminiapp-docs:build": "vuepress build wxminiapp-docs",
+    "opAdmin-docs:dev": "vuepress dev opAdmin-docs",
+    "opAdmin-docs:build": "vuepress build opAdmin-docs"
   },
   "repository": {
     "type": "git",

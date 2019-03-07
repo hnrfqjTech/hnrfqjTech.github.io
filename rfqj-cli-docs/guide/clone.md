@@ -9,9 +9,9 @@ npm i -g @hnrfqj/rfqj-cli
 ```
 
 ```js
-// 用法
+// 使用
 rfqj clone boilerplateName [-p=./]
- - boilerplateName： wxminiapp、vuePage、opAdmin
+ - boilerplateName： wxminiapp、opAdmin、vuePage、nuxtPage
  - [-p=./] 保存路径，默认./，非必传
 
 ```
@@ -20,9 +20,12 @@ rfqj clone boilerplateName [-p=./]
 // 下载微信小程序脚手架
 rfqj clone wxminiapp -p=./
 
-// 下载管理后台脚手架
+// 下载运营后台脚手架
 rfqj clone opAdmin
 
 // 下载 vue 单页代码片段
 rfqj clone vuePage
+
+// 下载 nuxt 单页代码片段
+rfqj clone nuxtPage
 ```

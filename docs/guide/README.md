@@ -38,9 +38,4 @@ Vue.use(HmUi);
 5. 设置版本号，发布新版本
 
 #### 渐进式开发说明
-1. 业务组件一般都是在各自的业务线先封装内部组件，使用一段时间经过考察期稳定后，申请迁移至 hm-ui（开新分支 feature/hm-{name}）
-2. 提交到 hm-ui 后可以 npm run build 编译生成 hm-ui 的生产package
-3. 在 hm-ui 的根目录 npm link，将该 package 注册到全局 node_modules
-4. 在业务线应用 npm link hm-ui，使用验证
-5. 确认没问题后 feature/hm-{name} 发 MR 到 master 分支
-6. 管理员 review 后没问题后，合并发版
+业务组件一般都是在各自的业务线先封装内部组件，使用一段时间经过考察期稳定后，申请迁移至 hm-ui（开新分支 feature/hm-{name}）

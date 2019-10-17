@@ -13,7 +13,9 @@
     "wxminiapp-docs:dev": "vuepress dev wxminiapp-docs",
     "wxminiapp-docs:build": "vuepress build wxminiapp-docs",
     "opAdmin-docs:dev": "vuepress dev opAdmin-docs",
-    "opAdmin-docs:build": "vuepress build opAdmin-docs"
+    "opAdmin-docs:build": "vuepress build opAdmin-docs",
+    "hm-oms-docs:dev": "vuepress dev hm-oms-docs",
+    "hm-oms-docs:build": "vuepress build hm-oms-docs"
   },
   "repository": {
     "type": "git",

@@ -17,6 +17,23 @@
 5. vue ui // ui界面运行项目，查看插件等
 ```
 
+## 通用配置
+```js
+// src/config/index.js
+1. websiteName // 站点标题
+2. showSettingBtn // 是否显示设置按钮，根据业务需要自行决定
+3. showBreadcrumb // 是否显示访问路径面包屑，根据业务需要自行决定
+4. showDemoPage // 是否显示demo页，预览版默认设置为true，业务中设置false
+
+// src/store/modules/user.js
+1. loginPageType // 默认登录页样式，根据业务需要自行决定
+2. menuType // 默认菜单栏样式，根据业务需要自行决定
+
+// 其它
+* 修改密码接口待接入
+* 菜单接口自行接入业务接口，数据格式参考 src/mock/menu.bak.json
+```
+
 ## 项目结构
 ```
 src
@@ -27,6 +44,7 @@ src
   │  ├─Layout
   │  └─SvgIcon
   ├─config  // 配置
+  ├─layouts // 布局
   ├─filters // 过滤器
   ├─router  // 路由，建议分业务模块封装。
   │  ├─index.js

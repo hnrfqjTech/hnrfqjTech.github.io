@@ -1,7 +1,4 @@
 # 布局容器
 
-## Header+Content
-[点击预览](http://www.google.com/)
-
-## Sider+Header+Content
-[点击预览](http://www.google.com/)
+## 菜单栏
+* 顶部菜单、左边菜单。登录后页面右上方的设置按钮可以切换查看
